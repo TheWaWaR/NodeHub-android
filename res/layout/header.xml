@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#222"
+    android:orientation="horizontal" >
+
+    <!-- Logo -->
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/app_name"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/header_refresh"
+        android:layout_width="54dp"
+        android:layout_height="51dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/header_text_selector"
+        android:clickable="true"
+        android:onClick="onRefreshClick"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_menu_refresh" />
+
+    <!-- 
+    <ImageView
+        android:id="@+id/header_stop_refresh"
+        android:layout_width="54dp"
+        android:layout_height="51dp"
+        android:layout_toLeftOf="@id/header_refresh"        
+        android:background="@drawable/header_text_selector"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_menu_stop" />
+    
+    <TextView
+        android:id="@+id/btn_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/header_stop_refresh"
+        android:background="@drawable/header_text_selector"
+        android:clickable="true"
+        android:paddingBottom="14dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingTop="14dp"
+        android:text="刷新"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+ 	-->
+</RelativeLayout>

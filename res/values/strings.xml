@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_logout">注销</string>
+    <string name="menu_quit">退出</string>
+    <string name="menu_about">关于</string>
+    
+    <string-array name="tabLabel">
+        <item >首页</item>
+        <item >时间线</item>
+        <item >节点</item>
+    </string-array>
+    
+    <string name="app_name">NodeHub</string>
+    <string name="about">\nNodeHub V1.0\n</string>    
+    <string name="login_title">登录</string>
+    <string name="login_notice">登录成功</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="signup">注册</string>
+    <string name="node_name_label">帐号：</string>
+    <string name="node_apikey_label">Apikey：</string>
+    <string name="no_more">无更多消息</string>
+    <string name="error_connect">网络错误，请稍后再试。</string>
+</resources>
